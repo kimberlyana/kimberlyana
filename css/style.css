@@ -50,7 +50,7 @@ header .container {
 /* Showcase */
 
 #showcase {
-	background: url(http://kimberlyana.com/noclouds.png);
+	background: url("http://kimberlyana.com/noclouds.png");
 	background-size:cover;
 	background-position: bottom;
 	opacity:.5s;
