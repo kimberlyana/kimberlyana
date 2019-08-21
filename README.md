@@ -1,2 +1,2 @@
-# http://kimberlyana.com
+# http://kimberlyana.github.io
 My Portfolio Website
