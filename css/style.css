@@ -21,7 +21,7 @@ font-size: 23px;
 }
 
 p {
-	color: #606060;
+	color: #red;
 font-family: 'Spectral', serif;
 font-size: 18px;
 }
@@ -103,22 +103,9 @@ body {
 }
 
 
-
 .nav-active {
 			transform: translateX(0%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Showcase */
@@ -162,15 +149,6 @@ button {
 button:hover { 
 	background-color: #4ed5da;
 }
-
-
-
-
-
-
-
-
-
 
 /* animations */
 
