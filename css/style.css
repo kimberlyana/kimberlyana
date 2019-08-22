@@ -1,3 +1,4 @@
+
 /* Global */
 
 body {
@@ -5,12 +6,26 @@ body {
 	padding:0;
 }
 
-p {
-	font-family: Trebuchet MS;
+h1, h2, p, a {
+font-family: 'Quicksand', sans-serif;
+	text-align: center;
 }
 
-h1, a {
-	color: rgb(1,83,99);	
+h1 {
+	color: rgb(1,83,99);
+	font-size: 40px;	
+	font-weight: lighter;
+}
+
+h2 {
+font-size: 23px;
+	color: #82AEB7;
+}
+
+p {
+	color: #606060;
+font-family: 'Spectral', serif;
+font-size: 18px;
 }
 
 .container {
@@ -50,7 +65,7 @@ header .container {
 /* Showcase */
 
 #showcase {
-	background-image:url("https://kimberlyana.github.io/noclouds.png");
+	background: url(noclouds.png);
 	background-size:cover;
 	background-position: bottom;
 	opacity:.5s;
@@ -63,14 +78,43 @@ header .container {
 	padding-top:100px;
 	margin:0;
 	font-family: 'Sacramento', cursive;
-
 }
 
 #showcase p {
 	color: rgba(1,83,99,.75);	
 	margin:-10px;
 	font-size: 18px;
+	font-family: 'Quicksand', sans-serif;
 }
+
+/* button */
+
+button {
+	height: 40px;
+	width: 160px;
+	font: 15px Garamond, Avenir, Calibri;
+	text-transform: uppercase;
+	background-color: #9ed5da;
+	display:inline;
+	border:none;
+	border-radius: 50px;
+
+}
+
+button:hover { 
+	background-color: #4ed5da;
+}
+
+
+
+
+
+
+
+
+
+
+/* animations */
 
 .cloud {
 	position: relative;
@@ -133,10 +177,6 @@ header .container {
 		animation: move 15s linear infinite;
 }
 
-
-
-
-
 @keyframes move {
 	0%
 	{
@@ -153,4 +193,6 @@ header .container {
 		transform: translate(0);
 	}
 }
+
+
 
