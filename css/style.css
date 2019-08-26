@@ -1,4 +1,3 @@
-
 /* Global */
 * {
 	margin:0;
@@ -53,7 +52,7 @@ body {
 /* Showcase */
 
 #showcase {
-	background-image: url(http://kimberlyana.com/css/noclouds.png);
+	background-image: url(http://kimberlyana.github.io/css/noclouds.png);
 	background-size:cover;
 	background-position: bottom;
 	opacity:.5s;
@@ -154,4 +153,3 @@ body {
 		transform: translate(0);
 	}
 }
-
