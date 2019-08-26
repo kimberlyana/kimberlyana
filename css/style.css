@@ -21,12 +21,6 @@ h2 {
 font-size: 23px;
 }
 
-p {
-	color: #606060;
-font-family: 'Spectral', serif;
-font-size: 18px;
-}
-
 .container {
 	margin:0 100px;
 }
@@ -44,30 +38,6 @@ align-items: center;
 height:8vh;
 }
 
-.nav-links {
-	width:30%;
-	display:flex;
-	justify-content: space-around;
-	list-style: none;		
-	font-size: 16px;
-	}
-
-.nav-links a {
-	text-decoration: none;
-	letter-spacing: 3px;
-		color: #7596A2;
-}
-.burger  {	
-	color:white;
-	display:none;
-}
-
-.burger div {
-	width:25px;
-	height: 3px;
-	margin:5px;
-	background-color: white;
-}
 
 @media screen and (max-width:1024px){
 	.nav-links {
@@ -79,35 +49,6 @@ height:8vh;
 body {
 	overflow-x:hidden;
 }
-
-	.nav-links {
-		position:absolute;
-		right:0px;
-		height:92vh;
-		top:8vh;
-		background-color: pink;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		width:50%;
-		transform: translateX(100%);
-		transition:transform 0.5s ease-in;
-	}
-	.nav-links li {
-	/*opacity:0;*/
-	}
-
-	.burger {
-		display:block;
-	
-	}
-}
-
-
-.nav-active {
-			transform: translateX(0%);
-}
-
 
 /* Showcase */
 
@@ -132,23 +73,6 @@ body {
 	margin:-10px;
 	font-size: 18px;
 	font-family: 'Quicksand', sans-serif;
-}
-
-/* button */
-
-button {
-	height: 40px;
-	width: 160px;
-	font: 15px Garamond, Avenir, Calibri;
-	text-transform: uppercase;
-	background-color: #9ed5da;
-	display:inline;
-	border:none;
-	border-radius: 50px;
-}
-
-button:hover { 
-	background-color: #4ed5da;
 }
 
 /* animations */
@@ -211,7 +135,7 @@ button:hover {
 	top:40%;
 	left:70%;
 	transform: translate(-50%, -50%);
-		animation: move 15s linear infinite;
+		animation: move 12s linear infinite;
 }
 
 @keyframes move {
