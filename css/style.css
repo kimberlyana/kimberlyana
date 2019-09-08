@@ -100,8 +100,8 @@ font-family: 'Poppins', sans-serif;
 /*--------------------------------- MENU STYLES -------------------------------*/
 .menu-wrap {
   position: fixed;
-  top: 40px;
-  left: 35px;
+  top: 38px;
+  left: 36px;
   width:60px;
   opacity: 1;
   height:100vh;
