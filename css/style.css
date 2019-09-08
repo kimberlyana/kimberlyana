@@ -12,7 +12,7 @@
 }
 
 .top-margin {
-  height:40px;
+  height:35px;
   background-color: white;
   position: sticky;
   top:0;
@@ -101,7 +101,7 @@ font-family: 'Poppins', sans-serif;
 .menu-wrap {
   position: fixed;
   top: 40px;
-  left: 30px;
+  left: 35px;
   width:60px;
   opacity: 1;
   height:100vh;
