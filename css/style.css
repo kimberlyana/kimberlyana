@@ -8,12 +8,10 @@
 
 .container {
   margin:0 30px 30px 90px;
-	overflow-y:hidden;
-
 }
 
 .top-margin {
-  height:35px;
+  height:45px;
   background-color: white;
   position: sticky;
   top:0;
@@ -21,7 +19,6 @@
 
 /* ----------------------------- SHOWCASE ---------------------------------*/
 .showcase{
-  margin-top:0;
   background-color:rgb(249,227,215);
   height:100vh;
   overflow:hidden;
