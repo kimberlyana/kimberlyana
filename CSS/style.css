@@ -104,9 +104,21 @@ color:black;
 @media (max-width:768px) {
 	.container {
 		flex-direction: column;
+		padding:50px 0 50px 0;
+	}
+
+	.left {
+		display:flex;
+		flex-flow: column;
+		align-items: center;
 	}
 
 	.right {
-		margin-top:25px;
+		margin:25px;
+	}
+
+	h1 {
+		font-size: 80px;
+		text-align: center;
 	}
 }
