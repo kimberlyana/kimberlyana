@@ -64,6 +64,7 @@ p{
 
 .contact-btn button:focus {
 	outline:0 !important;
+	box-shadow:none;
 }
 
 .contact-btn button:hover{
