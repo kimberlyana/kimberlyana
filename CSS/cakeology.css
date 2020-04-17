@@ -1,0 +1,157 @@
+body {
+font-family: 'Josefin Sans', sans-serif;
+font-weight: 700;
+}
+
+.favorites {
+    margin-top:110px;
+}
+
+.collections, .cakegram, .large-card {
+    margin-bottom: 80px;
+    margin-top:80px;
+}
+
+/* Text Styles */
+h1, h2, button, a, a:hover, .socials p {
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    color:black;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.btn {
+    border:2px solid white;
+    border-radius: 0;
+    color:white;
+}
+
+.carousel-item p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.95rem;
+}
+
+.collections p {
+    font-size: 1.5rem;
+}
+
+.collections a, .collections a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* Navigation */
+
+.nav-item a {
+    font-size: 0.7rem;
+}
+
+.navbar i {
+    font-size: 2rem;
+}
+
+/* Showcase jumbotron */
+
+.jumbotron h1 {
+    font-size: 30px;
+    color: white;
+}
+
+#jumbo-img {
+background: url(jumbotron.jpg) ;
+background-size:cover;
+background-position: center;
+
+}
+
+.jumbo-content {
+backdrop-filter: brightness(80%);
+padding: 220px 0;
+}
+
+.jumbo-btn:hover {
+	background-color: white;
+	color:black;
+	transition:.6s ease-in-out;
+}
+
+/* Carousel */
+
+.carousel-control-prev i {
+    margin-right:200px;
+}
+
+.carousel-control-next i {
+    margin-left:200px;
+}
+
+@media (max-width: 768px) {
+    .carousel-control-prev i {
+        margin-right:100px;
+    }
+
+    .carousel-control-next i {
+        margin-left:110px;
+    }
+}
+
+/* Collections */
+
+.card, .card-img {
+    border:none;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.card-hover:hover .card-img {
+   transform:scale(1.1);
+   filter:brightness(70%);
+   transition:transform 1s ease;
+}
+
+.collections .card-img-overlay>a{
+    opacity:0;
+}
+ 
+.collections .card-img-overlay:hover a{
+    opacity: 1;
+     transition:opacity 0.5s ease;
+}
+
+/* Second jumbotron */
+
+.jumbo-content-second {
+    padding: 170px 0;
+}
+
+.jumbo-second {
+    background: url(parallax.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.large-card-btn:hover, .large-card a:hover{
+    color:white;
+    opacity: 75%;
+}
+
+/* Socials */
+
+.socials li {
+    display: inline;
+    margin: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.socials a:hover{
+    opacity:50%;
+    transition: 0.4s;
+}
+
+
+
